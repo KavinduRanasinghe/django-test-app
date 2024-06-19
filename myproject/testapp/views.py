@@ -7,3 +7,6 @@ def index(request):
 
 def test(request):
     return HttpResponse("Hello, world. You're at the testapp test.")
+
+def about(request):
+    return HttpResponse("Hello, world. You're at the testapp about.")
