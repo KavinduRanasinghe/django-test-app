@@ -9,4 +9,5 @@ def test(request):
     return HttpResponse("Hello, world. You're at the testapp test.")
 
 def about(request):
-    return HttpResponse("Hello, world. You're at the testapp about.")
+    content =  '<html><body><h1>About</h1><p>This is the about page</p></body></html>'
+    return HttpResponse(content)
